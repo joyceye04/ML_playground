@@ -131,7 +131,7 @@ def get_data(data_source):
 	elif 'zip' in data_source:
 		fil = data_source.split("-")[-1]
 		if 'wiki' in fil:
-			data = read_wiki_file('data/{0}.zip'.format(fil))
+			data = read_wiki_file('../shared-data/{0}.zip'.format(fil))
 		else:
 			data = read_zip_file('data/{0}.zip'.format(fil))
 	elif 'csv' in data_source:
