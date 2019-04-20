@@ -1,2 +1,2 @@
 # ML_playground
-self-implemented some machine learning models
+implemented some machine learning models
