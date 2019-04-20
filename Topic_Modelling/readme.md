@@ -87,15 +87,3 @@ check ./demo for sample code of request
 
 run `pip install -r requirements.txt` to install related packages
 
-
-
-## Author
-
-Jing Y. jing.ye01@sap.com 
-
-
-
-## Improvements To Do
-
-- [ ] For optimization mode, model evaluation metrics is missing to select the best model
-- [ ] to save memory usage and rm raw data
